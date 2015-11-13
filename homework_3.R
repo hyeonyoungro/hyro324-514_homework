@@ -13,7 +13,8 @@ sum(y.1)
 m35 = function(n) sum(unique(c(
   seq(3, n-1, by = 3), seq(5, n-1, by = 5))))
 m35(1000)
-#[1] 233168
+
+#Answer: 233168
 
 
 ##2##
@@ -31,5 +32,6 @@ fibonacci <- fibonacci[-length(fibonacci)]   # remove the last term
 flag <- fibonacci %% 2 == 0  # find the indexes of even numbers
 result <- sum(fibonacci[flag])
 cat("The result is:", result, "\n")
-#The result is: 4613732 
+
+#Answer: 4613732 
 
